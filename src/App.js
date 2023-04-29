@@ -5,12 +5,9 @@ import { BrowserRouter ,Routes , Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
-        <Routes>
-          <LoginForm />
-        </Routes>
-    </BrowserRouter>
-    
+    <div className="App">
+      <LoginForm />
+    </div>
   );
 }
 
