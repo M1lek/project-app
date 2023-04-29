@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-          <Route path="https://lovely-torte-8176de.netlify.app/" element={<LoginForm />}/>
+          <Route path="https://lovely-torte-8176de.netlify.app" element={<LoginForm />}/>
         </Routes>
     </BrowserRouter>
     
